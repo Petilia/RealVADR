@@ -1,2 +1,7 @@
 *.wav
 *.png
+*ogg
+*zip
+*csv
+src/common_voice
+src/salutespeech_commomvoice.ipynb

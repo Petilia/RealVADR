@@ -21,6 +21,7 @@ RUN pip install seaborn bokeh
 
 RUN pip install datasets wandb undecorated
 RUN pip install hydra-core --upgrade
+RUN pip install -U openai-whisper
 
 #### ADD USER WITH DEFAULT PW
 ARG USER=docker_current
